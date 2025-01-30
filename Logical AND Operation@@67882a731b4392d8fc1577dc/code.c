@@ -7,14 +7,13 @@ int main()
     {
         printf("True");
     }
-  
-    else if(a>b)
+    else if (a>b)
     {
         printf("True");
     }
-    else{
+    else
+    {
         prinf("False");
-
     }
     return 0 ;
 }
