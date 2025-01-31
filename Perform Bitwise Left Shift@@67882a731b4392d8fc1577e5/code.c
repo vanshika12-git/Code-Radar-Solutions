@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int a , b,c,d;
+    int a , b,c;
     scanf("%d",&a,&b);
-    c=a<<1;
-    d=b<<1;
-    printf("%d %d",c,d);
+    c=a<<b;
+    printf("%d %d",c);
     return 0;
 }
