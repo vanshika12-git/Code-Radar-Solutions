@@ -2,7 +2,7 @@
 int main()
 {
     int a,x;
-    scnf("%d",&a);
+    scanf("%d",&a);
     x = ~a;
     printf("%d",x);
     return 0;
