@@ -5,11 +5,11 @@ int main()
     scanf("%c",& x);
     if (x == 'a' || x== 'e'|| x=='i' || x=='o'||x=='u')
     {
-        printf("Vowel");
+        printf("%c Vowel",x);
     }
     else
     {
-        printf("Consonant");
+        printf("%c Consonant",x);
     }
     return 0;
 }
