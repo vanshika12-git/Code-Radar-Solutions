@@ -7,24 +7,24 @@ int main()
         printf("Prime");
     }
     else if(a%2==0){
-        printf("%d Non Prime",a);
+        printf("Non Prime");
     }
     else 
     {
         if(a%3==0){
-            printf("%d Non Prime",a);
+            printf("Non Prime");
         }
         else if(a%5==0){
-            printf("%d Non Prime",a);
+            printf("Non Prime");
         }
         else if(a%7==0){
-            printf("%d Non Prime",a);
+            printf("Non Prime");
         }
         else if(a%11==0){
-            printf("%d Non Prime",a);
+            printf("Non Prime");
         }
         else{
-            printf("%d Prime",a);
+            printf("Prime");
         }
     }
     return 0;
