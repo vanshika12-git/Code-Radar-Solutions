@@ -5,5 +5,11 @@ int main()
     scanf("%d %d",&a,&b);
     c = a+b;
     printf("%d",c);
+    c=a-b;
+    printf("%d",c);
+    c=a*b;
+    printf("%d",c);
+    c=a/b;
+    printf("%d",c);
     return 0 ;
 }
