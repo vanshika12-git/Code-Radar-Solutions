@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    float a,b;
-    scanf("%f %f",&a,&b);
+    int a,b;
+    scanf("%d %d",&a,&b);
     if (a * a == b)
     {
-        printf("%f Yes",a,b);
+        printf("Yes");
     }
     else
     {
