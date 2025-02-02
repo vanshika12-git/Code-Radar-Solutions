@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    in a;
+    int a;
     scanf("%d",&a);
     if (a==2){
         printf("%d Prime");
