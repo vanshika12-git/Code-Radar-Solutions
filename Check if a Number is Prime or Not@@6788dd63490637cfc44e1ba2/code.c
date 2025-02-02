@@ -9,9 +9,9 @@ int main()
     else if(a%2==0){
         printf("Not Prime");
     }
-    else if(a==10)
+    else if(a==1)
     {
-        printf("Not Prime");
+        printf("Prime");
     }
     else 
     {
