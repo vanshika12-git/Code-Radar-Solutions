@@ -2,8 +2,8 @@
 int main()
 {
     char a;
-    scanf("%c",&a);
-    if (a== a,e,i,o,u)
+    scanf("%c",& x);
+    if (x == a || x== e|| x==i || x==o||x==u)
     {
         printf("Vowel");
     }
