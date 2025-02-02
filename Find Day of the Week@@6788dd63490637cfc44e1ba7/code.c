@@ -10,13 +10,13 @@ int main()
         break;
         case 2:
         printf("Tuesday");
-        break ;
+        break;
         case 3:
         printf("Wednesday");
         break;
         case 4:
         printf("Thursday");
-        breal;
+        break;
         case 5:
         printf("Friday");
         break;
