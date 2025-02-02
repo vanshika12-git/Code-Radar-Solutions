@@ -4,27 +4,27 @@ int main()
     in a;
     scanf("%d",&a);
     if (a==2){
-        printf("Prime");
+        printf("%d Prime");
     }
     else if(a%2==0){
-        printf("Non Prime");
+        printf("%d Non Prime",a);
     }
     else 
     {
         if(a%3==0){
-            printf("Non Prime");
+            printf("%d Non Prime",a);
         }
         else if(a%5==0){
-            printf("Non Prime");
+            printf("%d Non Prime",a);
         }
         else if(a%7==0){
-            printf("Non Prime");
+            printf("%d Non Prime",a);
         }
         else if(a%11==0){
-            printf("Non Prime");
+            printf("%d Non Prime",a);
         }
         else{
-            printf("Prime");
+            printf("%d Prime",a);
         }
     }
     return 0;
