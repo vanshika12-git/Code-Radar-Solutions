@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c,d,e;
+    char x;
+    int a,b,d;
+    scanf("%c",&x);
     scanf("%d %d",&a,&b);
-    if (c = a+b)
+    switch(x)
     {
-        printf("%d",c);
+        case +:
+        printf("%d",a+b);
+        break;
     }
-    else if(c=a/b)
-    {
-        printf("%d",c);
-    }
-    return 0 ;
+    return 0;
 }
