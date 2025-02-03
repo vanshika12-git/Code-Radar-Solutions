@@ -7,7 +7,7 @@ int main()
     {
         printf("%d",c);
     }
-    else if(c=a-b)
+    else if(c=a/b)
     {
         printf("%d",c);
     }
