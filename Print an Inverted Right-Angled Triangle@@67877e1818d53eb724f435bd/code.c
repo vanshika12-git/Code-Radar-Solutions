@@ -12,4 +12,8 @@ int main()
         printf("* *")
         printf("*")
     }
+    else{
+        printf("***")
+    }
+    return 0;
 }
