@@ -7,9 +7,9 @@ int ain()
     {
         for(j=1;j<=i;j++)
         {
-            printf("%c ",'A'+j)
+            printf("%c ",'A'+j);
         }
-        printf("\n")
+        printf("\n");
     }
     return 0;
 }
