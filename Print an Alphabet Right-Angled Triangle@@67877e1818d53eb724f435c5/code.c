@@ -1,5 +1,5 @@
 #include<stdio.h>
-int ain()
+int main()
 {
     int i,j,n;
     scanf("%d",&n);
