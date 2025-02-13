@@ -1,19 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int a ;
-    scanf("%d",&a);
-    if(a==1)
+    int i,j,n;
+    scanf("%d",&n);
+    for (i =n;i>=1,i--)
     {
-        printf("*")
-    }
-    else if(a==2)
-    {
-        printf("* *")
-        printf("*")
-    }
-    else{
-        printf("***")
+        for (j =1;j<=i,j++)
+        {
+            printf("*");
+        }
+        printf("\n");
     }
     return 0;
 }
