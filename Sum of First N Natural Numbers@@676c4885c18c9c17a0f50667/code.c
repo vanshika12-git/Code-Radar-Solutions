@@ -5,8 +5,8 @@ int main()
     scanf("%d",&a);
     for(i=1;i<=a;i++)
     {
-        sum +=i;
-        printf("%d\n",a,sum);
+        s +=i;
+        printf("%d\n",a,s);
     }
     return 0;
 }
