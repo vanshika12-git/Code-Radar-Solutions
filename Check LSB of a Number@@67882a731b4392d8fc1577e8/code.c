@@ -3,7 +3,7 @@ int main()
 {
     int lbs;
     scanf("%d",&lbs);
-    if(lbs==1)
+    if(lbs&1)
     {
         printf("Set");
     }
