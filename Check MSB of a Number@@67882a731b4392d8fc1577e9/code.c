@@ -7,6 +7,10 @@ int main()
     {
         printf("Set");
     }
+    else  if(msb|1)
+    {
+        printf("Set");
+    }
     else 
     {
         printf("Not Set");
