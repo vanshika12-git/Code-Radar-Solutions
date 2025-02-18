@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int n,s=0;
+    int n;
     scanf("%d",&n);
-        s = n*(n+1)/2;
-        printf("%d\n",s);
+        int sum = n*(n+1)/2;
+        printf("%d\n",n,sum);
     }
     return 0;
 }
