@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 (
-    int LBS;
-    scanf("%d",&LBS);
-    if(LBS==1)
+    int lbs;
+    scanf("%d",&lbs);
+    if(lbs==1)
     {
         printf("Set");
     }
