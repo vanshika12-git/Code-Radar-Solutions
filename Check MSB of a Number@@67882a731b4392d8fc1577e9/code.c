@@ -3,11 +3,7 @@ int main()
 {
     int msb;
     scanf("%d",&msb);
-    if(msb&1)
-    {
-        printf("Set");
-    }
-    else  if(msb|1)
+    if(msb&|1)
     {
         printf("Set");
     }
