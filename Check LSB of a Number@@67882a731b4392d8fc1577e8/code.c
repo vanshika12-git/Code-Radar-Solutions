@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-(
+{
     int lbs;
     scanf("%d",&lbs);
     if(lbs==1)
@@ -13,4 +13,4 @@ int main()
     }
     return 0;
 
-)
+}
