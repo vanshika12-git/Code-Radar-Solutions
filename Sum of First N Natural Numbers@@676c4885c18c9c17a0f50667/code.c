@@ -3,10 +3,8 @@ int main()
 {
     int a,s=0,i;
     scanf("%d",&a);
-    for(i=1;i<=a;i++)
-    {
-        s +=i;
-        printf("%d\n",a,s);
+        s = a*(a+1)/2;
+        printf("%d\n",s);
     }
     return 0;
 }
