@@ -7,7 +7,7 @@ int main()
     {
         int num;
         scanf("%D",&num);
-        printf("%d\n",isPrime(num));
+        printf("%d\n", isPrime(num));
     }
     return 0;
 }
