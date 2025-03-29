@@ -2,12 +2,11 @@
 #include <string.h>
 #include <ctype.h>
 
-// Function to encrypt a message using Caesar Cipher
-void caesar Cipher(char message[], int shift) {
+void caesarCipher(char message[], int shift) {  // Correct function name
     for (int i = 0; i < strlen(message); i++) {
-        if (isalpha(message[i])) { // Check if the character is alphabetic
-            char base = islower(message[i]) ? 'a' : 'A'; // Determine if it's lowercase or uppercase
-            message[i] = (message[i] - base + shift) % 26 + base; // Shift within the alphabet
+        if (isalpha(message[i])) {  // Check if the character is alphabetic
+            char base = islower(message[i]) ? 'a' : 'A'; // Check case
+            message[i] = (message[i] - base + shift) % 26 + base;
         }
     }
 }
