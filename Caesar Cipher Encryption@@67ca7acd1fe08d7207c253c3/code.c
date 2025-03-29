@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-void caesarCipher(char[], int);
+void CaesarCipher(char[], int);
 { 
     for (int i = 0; i < strlen(message); i++)
      {
