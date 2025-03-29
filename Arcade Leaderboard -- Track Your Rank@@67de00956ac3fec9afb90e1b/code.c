@@ -10,7 +10,7 @@ int main()
     scanf("%d",&m);
     int player[200000];
     for(int i=0;i<m;i++)
-    scanf("%d",&payer[i]);
+    scanf("%d",&player[i]);
 
     trackplayerranks(ranked,n,player,m,result);
     for(int i=0;i<m;i++)
