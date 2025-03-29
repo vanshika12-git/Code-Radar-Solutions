@@ -12,6 +12,6 @@ int factorial(int n) {
 // Function to calculate and display factorials for a range
 void factorialRange(int start, int end) {
     for (int i = start; i <= end; i++) {
-        printf("Factorial of %d is %d\n", i, factorial(i));
+        printf("%d\n", i, factorial(i));
     }
 }
