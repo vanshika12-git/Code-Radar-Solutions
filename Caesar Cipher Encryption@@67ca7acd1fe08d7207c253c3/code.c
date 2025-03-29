@@ -2,10 +2,11 @@
 #include <string.h>
 #include <ctype.h>
 
-void caesarCipher(char message[], int shift) {  // Correct function name
+void caesarCipher(char[], int);
+ { 
     for (int i = 0; i < strlen(message); i++) {
-        if (isalpha(message[i])) {  // Check if the character is alphabetic
-            char base = islower(message[i]) ? 'a' : 'A'; // Check case
+        if (isalpha(message[i])) { 
+            char base = islower(message[i]) ? 'a' : 'A'; 
             message[i] = (message[i] - base + shift) % 26 + base;
         }
     }
