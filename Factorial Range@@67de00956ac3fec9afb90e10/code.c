@@ -10,7 +10,7 @@ int factorial(int n) {
 // Function to calculate and display factorials for a range
 void factorialRange(int start, int end) {
     for (int i = start; i <= end; i++) {
-        printf("%d! = %d\n", i, factorial(i));
+        printf("%d\n", factorial(i));
 
     }
 }
