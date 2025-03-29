@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-// Function to calculate factorial
 int factorial(int n) {
     int result = 1;
     for (int i = 1; i <= n; i++) {
@@ -12,6 +10,6 @@ int factorial(int n) {
 // Function to calculate and display factorials for a range
 void factorialRange(int start, int end) {
     for (int i = start; i <= end; i++) {
-        printf(" %d \n", i, factorial(i));
+        printf(" %d! = %d\n", i, factorial(i));
     }
 }
