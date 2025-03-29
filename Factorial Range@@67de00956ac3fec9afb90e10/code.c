@@ -15,18 +15,3 @@ void factorialRange(int start, int end) {
         printf("Factorial of %d is %d\n", i, factorial(i));
     }
 }
-
-int main() {  // Corrected function declaration
-    int start, end;
-
-    // Input range values
-    printf("Enter the start of the range: ");
-    scanf("%d", &start);
-    printf("Enter the end of the range: ");
-    scanf("%d", &end);
-
-    // Calculate and display the factorials
-    factorialRange(start, end);
-
-    return 0;
-}
