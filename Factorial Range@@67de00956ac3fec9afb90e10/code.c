@@ -12,7 +12,8 @@ void factorialRange(int start, int end) {
         printf("Factorial of %d is %d\n", i, factorial(i));
     }
 }
-int main() {
+int main()
+ {
     int start, end;
     printf("Enter the start of the range: ");
     scanf("%d", &start);
