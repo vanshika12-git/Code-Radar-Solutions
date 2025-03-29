@@ -6,14 +6,12 @@ int factorial(int n) {
     }
     return result;
 }
-
-// Function to calculate and display factorials for a range
 void factorialRange(int start, int end) {
-    if (start < 0 || end < 0) {  // Check for negative numbers
+    if (start < 0 || end < 0) {  
         printf("Invalid range \n");
         return;
     }
-    if (start > end) {  // Check if start is greater than end
+    if (start > end) {  
         printf("Invalid range \n");
         return;
     }
