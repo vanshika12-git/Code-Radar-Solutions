@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
 {
-    prinf("Sorted");
+    printf("Sorted");
     return 0;
 }
